@@ -13,3 +13,7 @@ def test_mul():
 
 def test_div():
     assert div(4/2) == 2
+
+def test_div_by_zero():
+    with pytest.raises(ValueError):
+        div(5, 0)
