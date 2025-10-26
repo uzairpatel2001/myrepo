@@ -19,7 +19,7 @@ jobs:
                 python-verion: '3.7'
 
             - name: python version
-              run: python --verion  
+              run: python --version  
 
             - name: install depadencies
               run: pip install -r requirements.txt
